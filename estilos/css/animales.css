@@ -1,0 +1,202 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.textcenter{
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Kavoon';
+    font-size: 20px;
+}
+
+.giphy-embed{
+    margin: auto;
+    justify-content: center;
+}
+
+article{
+    display: flex;
+    width: 1140px;
+    margin: auto;
+    font-size: 20px;
+    text-align: justify;
+    color:rgb(255, 255, 255);
+}
+
+article div>p{
+    padding-left: 50px;
+    
+}
+
+.contenedor {
+    position: relative;
+    margin-top: 20px;
+    height: 0px;
+    width: 100%;   
+    padding-bottom: 56.25%;
+ }
+  
+ .video {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+ }
+
+.parrafo{
+    font-family: 'Atma';
+    font-size: 20px;
+    font-weight:lighter;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+img{
+    border-radius: 10px;
+}
+
+.infografias {
+    margin: 10px;
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+}
+
+.imagen {
+    margin-right: 15px;
+    margin-left: 10px;
+    width: 35%;
+    float: left;
+}
+
+.armadillo {
+    margin-right: 15px;
+    margin-left: 10px;
+    width: 100%;
+    float: left;
+}
+
+.cocodrilo {
+    margin-right: 15px;
+    margin-left: 10px;
+    width: 50%;
+    float: left;
+}
+
+marquee {
+    font-size: 25px;
+    font-weight: 100px;
+}
+
+marquee{
+    font-family: 'Kavoon';
+    color: rgba(172, 255, 47, 0.883);
+}
+
+.social {
+	position: fixed;
+	left: 0;
+	top: 200px;
+	z-index: 2000;
+}
+.social ul {
+	list-style: none;
+}
+
+.social ul li a {
+	display: inline-block;
+	color: #fff;
+	background: #000;
+	padding: 10px 15px;
+	text-decoration: none;
+	-webkit-transition: all 500ms ease;
+	-o-transition: all 500ms ease;
+	transition: all 500ms ease;
+}
+.social ul li .icon-facebook {background: #3b5998;}
+.social ul li .icon-google {background: #d95232;}
+.social ul li .icon-spotify {background: #81b71a;}
+.social ul li .icon-youtube {background: #c4302b;}
+.social ul li .icon-mail {background: #666666;}
+
+.social ul li a:hover {
+	padding: 10px 30px;
+	background: #000;
+}
+
+/*PIE DE PAGINA*/
+.pie-pagina{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.932);
+    color: #fff;
+}
+.pie-pagina .grupo-1{
+    width: 100%;
+    max-height: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+}
+
+.pie-pagina .grupo-1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pie-pagina .grupo-1 .box figure img{
+    width: 200px;
+}
+
+.pie-pagina .grupo-1 .box h2{
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+
+.pie-pagina .grupo-1 .box p{
+    margin-bottom: 10px;
+}
+
+.pie-pagina .grupo-1 .red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    margin-right: 10px;
+    background-color: #0d2033;
+    text-align: center;
+    transition: all 300ms ease;
+}
+
+.pie-pagina .grupo-1 .red-social a:hover{
+    color: rgba(255, 255, 255, 0.699);
+}
+
+.pie-pagina .grupo-2{
+    padding: 15px 10px;
+    text-align: center;
+}
+
+.pie-pagina .grupo-2 small{
+    font-size: 15px;
+}
+
+@media screen and (max-width: 800px){
+    .pie-pagina .grupo-1{
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px;
+        padding: 35px 0px;
+    }
+}

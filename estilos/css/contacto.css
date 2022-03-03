@@ -1,0 +1,62 @@
+main{
+    color: white;
+    background-color: rgb(59, 52, 52);
+    margin: auto;
+    box-shadow: 7px 10px 8px 6px rgb(33, 167, 0);
+    border: rgb(2, 24, 11) 3px solid;
+    border-radius: 14px;
+    width: 600px;
+}
+
+section{
+    background-color: rgb(59, 52, 52);
+    margin: 30px;
+    box-sizing: border-box;
+}
+
+.botons{
+    background-color: #45ad2b;
+    padding: 6px 15px;
+    border-radius: 6px;
+    border: rgb(2, 24, 11) 1px solid;
+}
+
+.genero{
+    background-color: rgb(59, 52, 52);
+}
+.padre{
+    display: flex;
+    width: 90%;
+    font-family: 'Kavoon';
+    flex-direction: column;
+}
+
+.infografias {
+    margin: 40px;
+    align-self: stretch;
+ 
+   display: flex;   
+   flex-direction: row;
+  
+}
+
+.osoimagen {
+    margin: 10px;
+    width: 400px;
+    border-radius: 50px;
+}
+
+.fi3{
+    margin: 1000px;
+}
+
+
+marquee {
+    font-size: 25px;
+    font-weight: 100px;
+}
+
+marquee{
+    font-family: 'Kavoon';
+    color: rgba(172, 255, 47, 0.883);
+}

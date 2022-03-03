@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="../estilos/fonts.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../estilos/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../estilos/css/animales.css">
+    <title>Organización de rescate de vida silvestre</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-inverse navbar-static-top">
+            <div class="container">
+                <!--Encabezado del menú-->
+                <div class="navbar-header">
+                    <img src="../imagen/logo1.jpeg" width="75" class="navbar-brand"><a href="#"
+                        class="navbar-brand">Organización de rescate de vida silvestre</a>
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                        data-target="#btn-colapsar">
+                        <span class="sr-only">Navegación</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+
+                <!--Elementos del menú-->
+                <div class="collapse navbar-collapse" id="btn-colapsar">
+                    <ul class="nav navbar-nav">
+                        <li><a href="../index.html">Inicio</a></li>
+                        <li><a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                Región <span class="caret"></span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a href="costa.html">Costa</a></li>
+                                <li><a href="sierra.html">Sierra</a></li>
+                                <li><a href="amazonia.html">Amazonía</a></li>
+                                <li><a href="insular.html">Insular</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Contacto</a></li>
+                    </ul>
+
+                    <!--Formulario de búsqueda-->
+                    <form action="" class="navbar-form navbar-right">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Buscar">
+                            <button type="submit" class="btn btn-default">Buscar</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="main">
+        <div class="container">
+            <!--SLIDESHOW-->
+            <div class="row">
+                <div class="col-md-12">
+                    <div id="slider" class="carousel slide" data-ride="carousel">
+                        <!--INDICADORES-->
+                        <ol class="carousel-indicators">
+                            <li data-target="#slider" data-slide-to="0" class="active"></li>
+                        </ol>
+                        <!--CONTENEDOR DE SLIDES-->
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <img src="../imagen/costa/papagayo1.jpg" alt="Papagayo">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--GALERIA-->
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="page-header">
+                        <h1 class="text-center">Papagayo de Guayaquil</h1>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-md-12">
+                    <img class="imagen" src="../imagen/costa/papagayo2.jpg">
+                    <div>
+                        <p class="parrafo">Ara Ambigua Guayaquilensis, o también conocido como Guacamayo verde
+                            mayor, es una
+                            especie endémica y considerada el símbolo de la ciudad de Guayaquil. Es por eso
+                            que se le brinda extremo cuidado a su conservación ya que se encuentra en la
+                            categoría de estado crítico de animales en peligro de extinción. Por ser un ave
+                            muy hermosa y llamativa por su plumaje de color naranja, amarillo, blanco, rojo
+                            o azules es una especie muy buscada como mascota exótica.<br>
+
+                            La zona de la región occidental ecuatoriana es la de mayor predominio del
+                            Papagayo de Guayaquil y por lo general abarca grandes extensiones. Viven en
+                            manadas y la unión de pareja es para toda la vida y van juntos a todo lugar.</p>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-12">
+                    <div class="contenedor">
+                        <video src="../video/Papagayo de Guayaquil (Ara ambiguus guayaquilensis).mp4" frameborder="0"
+                            allowfullscreen="allowfullscreen" class="video" autoplay controls></video>
+                    </div>
+                </div>
+                <!--FIN COLUMNA-->
+            </div>
+        </div><br>
+    </section>
+    
+    <!--PIE DE PÁGINA-->
+    <footer class="pie-pagina">
+        <div class="grupo-1">
+            <div class="box">
+                <figure>
+                    <a href="#">
+                        <img src="../imagen/logo1.jpeg">
+                    </a>
+                </figure>
+            </div>
+            <div class="box">
+                <h2>Sobre nosotros</h2>
+                <p>Autor: Julio Navarrete</p>
+                <p>Telf: 0987317922</p>
+                <p>Email: julioalejandro59.jn@gmail.com</p>
+                <p>Creado el 27 de diciembre del 2021</p>
+            </div>
+            <div class="box">
+                <h2>SIGUENOS</h2>
+                <div class="red-social">
+                    <a href="#" class="icon-facebook"></a>
+                    <a href="#" class="icon-twitter"></a>
+                    <a href="#" class="icon-instagram"></a>
+                    <a href="#" class="icon-google"></a>
+                </div>
+            </div>
+        </div>
+        <div class="grupo-2">
+            <small>© 2021 <b>Organización de rescate de vida silvestre</b> - Todos los Derechos Reservados</small>
+        </div>
+    </footer>
+
+    <script src="../estilos/js/jquery.js"></script>
+    <script src="../estilos/js/bootstrap.min.js"></script>
+</body>
+
+</html>
